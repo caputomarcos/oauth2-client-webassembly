@@ -1,0 +1,17 @@
+{
+  "name": "wasm-oauth2",
+  "version": "1.0.0",
+  "description": "Node.js example using WebAssembly for OAuth2 password grant type",
+  "main": "index.js",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "wasm-pack": "^0.9.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Seu Nome",
+  "license": "ISC"
+}

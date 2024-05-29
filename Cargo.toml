@@ -1,0 +1,17 @@
+[package]
+name = "simple-wasm-oauth2"
+version = "0.1.0"
+authors = ["Seu Nome <seu.email@example.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
+wasm-bindgen-futures = "0.4"
+oauth2 = "4.0"
+js-sys = "0.3"
+serde = { version = "1.0", features = ["derive"] }
+serde-wasm-bindgen = "0.5"
+reqwest = "0.11"
